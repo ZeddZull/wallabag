@@ -95,4 +95,16 @@ class TagController extends Controller
             )
         );
     }
+
+    /**
+     * Shows entries for a tag.
+     *
+     * @Route("/tag-entries/{tag}", name="tag_entries")
+     *
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
+    public function showEntriesForTagAction(Tag $tag)
+    {
+        
+    }
 }
